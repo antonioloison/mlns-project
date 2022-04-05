@@ -250,14 +250,14 @@ if __name__ == "__main__":
         spectral_labels_cora,
         G_cora,
         title="Spectral clustering",
-        write_fig="sectral_clustering.pdf",
+        write_fig="spectral_clustering.pdf",
     )
     reduce_and_plot(
         kmeans_embedding_cora,
         kmeans_labels_cora,
         G_cora,
         title="KMeans clustering",
-        write_fig="kmean_clustering.pdf",
+        write_fig="kmeans_clustering.pdf",
     )
     reduce_and_plot(
         rmsc_embedding_cora,
