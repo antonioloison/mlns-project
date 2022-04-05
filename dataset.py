@@ -1,4 +1,4 @@
-from dgl.data import CoraGraphDataset, CiteseerGraphDataset, PubmedGraphDataset
+from dgl.data import CiteseerGraphDataset, CoraGraphDataset, PubmedGraphDataset
 
 
 def get_dataset(dataset_name: str):
