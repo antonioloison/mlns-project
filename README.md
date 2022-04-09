@@ -21,3 +21,23 @@ Can be launched with Python CLI to get the visualization results (can be a bit l
 ### Visualization functions
 In the file `visualization.py`.
  
+## DAEGC 
+
+This algorithm is seperated from the rest. You should go to the daegc directory:
+
+```
+cd daegc/
+```
+
+Then, to launch this algorithm, you should first pretrain the auto-encoder. For this you should run this command from the
+`daegc` folder:
+
+```
+python pretrain.py
+```
+
+To train the other algorithm, you can launch:
+
+```
+python training.py
+```
